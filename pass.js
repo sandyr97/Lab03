@@ -1,12 +1,22 @@
 function myVal()
 {
-  var pass1=document.getElementById("password1");
-  var pass2=document.getElementById("password2");
-  if (pass1==pass2)
+  var pass1=document.getElementById("password1").value;
+  var pass2=document.getElementById("password2").value;
+  if (pass1!==pass2)
   {
-    window.alert("YOU DID IT!");
+    if (pass1.length<= 8 || pass2.length<=8){
+    window.alert("Please enter a password with more than eight characters!");
+  }
+    else {
+      window.alert("The password does not matches!");
+    }
+
   }
   else {
-    window.alert("YOU DID NOT DO IT!");
+    if (pass1.length<= 8 || pass2.length<=8)
+    window.alert("Please enter a password with more than eight characters!");
+    else {
+      window.alert("The password is a match");
+    }
   }
 }
