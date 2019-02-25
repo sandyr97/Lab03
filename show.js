@@ -1,10 +1,11 @@
-function myNext()
+let count=0;
+function myNext(n)
 {
-  let currentstate = document.getElementById("1").value;
-  if (document.getElementById("1").style.display = "")
+  if (count=0)
   {
     document.getElementById("1").style.display = "none";
     document.getElementById("2").style.display = "";
+    count++;
   }
 
   //var theImgTag = document.getElementById("myImgId")

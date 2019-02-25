@@ -1,0 +1,51 @@
+body {
+  background-color: burlywood;
+  background-image: url(cat.gif);
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: 5% 20%;
+
+}
+h1 {
+  color: black;
+  font-family: georgia;
+  font-size: 43pt;
+  text-align: left;
+
+}
+p  {
+  color: black;
+  font-family: arial;
+  font-size: 100%;
+  border: 2px solid black;
+  padding: 10px;
+   margin-right: 350px;
+   margin-left: 350px;
+  text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200;
+  height: 200;
+}
+h2 {
+  color: black;
+  font-family: georgia;
+  font-size: 20pt;
+  text-align: left;
+
+}
+h3 {
+  color: black;
+  font-family: georgia;
+  font-size: 20pt;
+  text-align: left;
+
+}
+a:hover
+{
+    background-color: black;
+    color: yellow;
+}
