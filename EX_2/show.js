@@ -1,18 +1,32 @@
 let count=0;
-function myNext(n)
+photo_bank =
 {
-  if (count=0)
+  0: "orca",
+  1: "beluga",
+  2: "humpback",
+  3: "blue",
+  4: "narwhal"
+};
+function slide(i)
+{
+  if (i<0)
   {
-    document.getElementById("1").style.display = "none";
-    document.getElementById("2").style.display = "";
-    count++;
+    count=4;
   }
+  else if (i>4)
+  {
+    count=0;
+  }
+  image.src = photo_bank[count] + ".jpg"
 
-  //var theImgTag = document.getElementById("myImgId")
+}
+function myNext()
+{
+
+  slide(++count);
 
 }
 function myPrevious()
 {
-  document.getElementById("1").style.display = "";
-  document.getElementById("2").style.display = "none";
+  slide(--count);
 }
