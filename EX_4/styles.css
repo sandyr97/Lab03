@@ -2,9 +2,15 @@ p  {
   color: black;
   font-family: arial;
   font-size: 100%;
-  border-color: black
-  padding: 10px;
+  border: 2px solid black;
+  padding: 10px;;
    margin-right: 350px;
    margin-left: 350px;
+  text-align: center;
+}
+h1 {
+  color: black;
+  font-family: georgia;
+  font-size: 20pt;
   text-align: center;
 }

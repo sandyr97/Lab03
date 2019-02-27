@@ -1,17 +1,28 @@
 function myChange()
 {
-  let myRed=document.getElementById("r_back").value;
-  let myGreen=document.getElementById("g_back").value;
-  let myBlue=document.getElementById("b_back").value;
-//  var my_width=document.getElementById("w");
+  let backRed=document.getElementById("r_back").value;
+  let backGreen=document.getElementById("g_back").value;
+  let backBlue=document.getElementById("b_back").value;
+  let bordRed=document.getElementById("r_bord").value;
+  let bordGreen=document.getElementById("g_bord").value;
+  let bordBlue=document.getElementById("b_bord").value;
   let changed=document.getElementById("m_text");
-  if (myRed<0 || myGreen<0 || myBlue<0 || myRed>255 || myGreen>255 || myBlue>255)
+  if (backRed<0 || backGreen<0 || backBlue<0 || backRed>255 || backGreen>255 || backBlue>255)
   {
     alert("Please enter values between 0-255")
   }
   else
   {
-    changed.style.backgroundColor = 'rgb(' + myRed + ',' + myGreen + ',' + myBlue + ')';
+    changed.style.backgroundColor = 'rgb(' + backRed + ',' + backGreen + ',' + backBlue + ')';
+
+  }
+  if (bordRed<0 || bordGreen<0 || bordBlue<0 || bordRed>255 || bordGreen>255 || bordBlue>255)
+  {
+    alert("Please enter values between 0-255")
+  }
+  else
+  {
+    changed.style.borderColor = 'rgb(' + bordRed + ',' + bordGreen + ',' + bordBlue + ')';
 
   }
 
