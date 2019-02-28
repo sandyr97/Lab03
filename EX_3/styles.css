@@ -17,18 +17,18 @@ p  {
   color: white;
   font-family: arial;
   font-size: 100%;
-  border: 2px solid black;
+  border: 4px solid yellow;
   padding: 10px;
-   margin-right: 350px;
-   margin-left: 350px;
+   margin-right: 345px;
+   margin-left: 345px;
   text-align: center;
 }
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 200;
-  height: 200;
+  width: 300;
+  height: 300;
 }
 h2 {
   color: white;
@@ -49,8 +49,15 @@ h4 {
   font-family: georgia;
   font-size: 12pt;
   text-align: left;
-a:hover
-{
-    background-color: black;
-    color: yellow;
 }
+  a
+  {
+      background-color: black;
+      color: yellow;
+  }
+
+  a:hover
+  {
+      background-color: yellow;
+      color: black;
+  }
