@@ -1,5 +1,5 @@
 p  {
-  color: black;
+  color: white;
   font-family: arial;
   font-size: 100%;
   border: 2px solid black;
@@ -9,8 +9,16 @@ p  {
   text-align: center;
 }
 h1 {
-  color: black;
+  color: white;
   font-family: georgia;
   font-size: 20pt;
   text-align: center;
+}
+body {
+  background-color: DarkSeaGreen;
+  background-image: url(light.gif);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white
 }

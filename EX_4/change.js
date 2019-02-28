@@ -27,6 +27,6 @@ function myChange()
 
   }
 
-  changed.style.borderWidth = bordWidth
+  changed.style.borderWidth = bordWidth + "px";
 
 }
